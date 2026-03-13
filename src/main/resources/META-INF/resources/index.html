@@ -3,17 +3,34 @@
 
 <head>
     <meta charset="UTF-8">
+    <!-- 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quarkus Hello World</title>
+    -->
+    <title>LoL - 1단계</title>
 </head>
 
 <body>
-    <div class="container">
-        <h1>Hello, Quarkus!</h1>
-        <p>이 파일은 <code>META-INF/resources/index.html</code>에서 실행 중입니다.</p>
+    <h1 id="toc">League of Legends</h1>
+    <p>적의 넥서스를 파괴하세요! 5v5 MOBA 전투에서 팀과 함께 승리하세요.</p>
+
+    <h2>챔피언 선택</h2>
+    <ul id="champions" class="champions-wrapper">
+        <li>Aatrox (탑) - 어둠의 검으로 적을 베세요.</li>
+        <li>Sylas (정글/미드) - 궁극기를 훔치세요!</li>
+    </ul>
+
+    <h2>최신 뉴스</h2>
+    <div id="news" class="news-wrapper">
+        <div>
+            <h3>새로운 챔피언 출시</h3>
+            <p>2026 루나 레벨 이벤트!</p>
+        </div>
     </div>
-    <div></div>
-    <div id="goto-dev-ui">개발 환경 인터페이스 (landing) 보기 <a href="/q/dev-ui/welcome">#</a></div>
+
+    <footer>
+        <div id="goto-dev-ui" class="quarkus-devel todo-remove-on-production">개발 환경 인터페이스 (landing) 보기 <a
+                href="/q/dev-ui/welcome">#</a></div>
+    </footer>
 </body>
 
 </html>
