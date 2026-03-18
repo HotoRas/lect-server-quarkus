@@ -11,6 +11,18 @@ body {
     background-color: #1e1e1e;
     border: none;
     color: white;
+
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(160, 32, 240, 0.5);
+    }
+}
+
+.card-img-top {
+    /* height: 200px; */
+    object-fit: cover;
 }
 
 .btn-primary {
